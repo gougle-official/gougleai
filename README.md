@@ -13,5 +13,5 @@ The Gougle AI API include Gougle AI models.
     </tr>
 </table>
 
-# More spécifications
+# More specifications
 To see more than about Gougle AI API, you can read https://www.github.com/gougle-official/gougleai-python for `python` or https://www.github.com/gougle-official/gougleai-javascript for `javascript`. 
