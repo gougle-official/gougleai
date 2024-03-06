@@ -26,11 +26,11 @@ import gougleai
 gougleai.apiKey = "YOUR_API_KEY_HERE"
 
 while True:
-	userInput = input("User: ")
-	
-	response = gougleai.complete(model = gougleai.models.glt.glt1, prompt = userInput, maxTokenNumber = 100)
-	
-	print("GLT-1: " + response.choices[0])
+    userInput = input("User: ")
+    
+    response = gougleai.complete(model = gougleai.models.glt.glt1, prompt = userInput, maxTokenNumber = 100)
+    
+    print("GLT-1: " + response.choices[0])
 ```
 
 ### JavaScript
@@ -38,15 +38,15 @@ while True:
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-	</head>
-	<body>
-		<input type="text" id="myInput">
-		<p id="myParagraph"></p>
-		<script src="https://api.withgougle.cf/ai/gougleai-js" type="text/javascript"></script>
-		<script src="./app.js" type="text/javascript"></script>
-	</body>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <input type="text" id="myInput">
+        <p id="myParagraph"></p>
+        <script src="https://api.withgougle.cf/ai/gougleai-js" type="text/javascript"></script>
+        <script src="./app.js" type="text/javascript"></script>
+    </body>
 </html>
 ```
 `javascript`
@@ -56,11 +56,11 @@ userInput = document.getElementById("myInput");
 textOutput = document.getElementById("myParagraph");
 
 userInput.addEventListener("submit", () => {
-	prompt = userInput.value;
-	
-	response = gougleai.complete(gougleai.models.glt.glt1, prompt, 100);
-	
-	textOutput.textContent = "GLT-1: " + response.choices[0];
+    prompt = userInput.value;
+    
+    response = gougleai.complete(gougleai.models.glt.glt1, prompt, 100);
+    
+    textOutput.textContent = "GLT-1: " + response.choices[0];
 });
 ```
 ## More docs
