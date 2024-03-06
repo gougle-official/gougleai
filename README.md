@@ -14,3 +14,6 @@ See [`DOCS.md`](https://github.com/gougle-official/gougleai/blob/main/DOCS.md) f
 
 ## More specifications
 To see more about Gougle AI API, you can read [`gougle-official/gougleai-python`](https://www.github.com/gougle-official/gougleai-python) for `python` or [`gougle-official/gougleai-javascript`](https://www.github.com/gougle-official/gougleai-javascript) for `javascript`. 
+
+## License
+This project is under the GNU General Public License Version 2.0, see [`LICENSE`](https://github.com/gougle-official/gougleai/blob/main/LICENSE) for more informations
