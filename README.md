@@ -1,4 +1,4 @@
-# Gougle AI API − Python
+# Gougle AI API
 The Gougle AI API include Gougle AI models.
 
 ## Models
